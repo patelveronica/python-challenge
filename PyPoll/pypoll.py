@@ -73,5 +73,5 @@ with open(csvpath, 'w')as text:
     text.write("Khan: {:.3%}.format(Li_percentage) + " " + str(Khan_votes)" + "\n")
     text.write("Khan: {:.3%}.format(OTooley_percentage) + " " + str(Khan_votes)" + "\n")
     text.write("-------------------------------------------" + "\n")
-    text.write(f"Winner: {winner}")
+    text.write(f"Winner: {winner}" + "\n")
     text.write("-------------------------------------------" + "\n")

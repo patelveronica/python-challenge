@@ -7,4 +7,5 @@ Khan: {:.3%}.format(Correy_percentage) +  + str(Khan_votes)
 Khan: {:.3%}.format(Li_percentage) +  + str(Khan_votes)
 Khan: {:.3%}.format(OTooley_percentage) +  + str(Khan_votes)
 -------------------------------------------
-Winner: Khan-------------------------------------------
+Winner: Khan
+-------------------------------------------
