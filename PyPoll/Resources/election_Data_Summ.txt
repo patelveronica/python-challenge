@@ -1,0 +1,10 @@
+Election Results
+-------------------------------------------
+Total Votes: {str(total_votes)}
+-------------------------------------------
+Khan: {:.3%}.format(khan_percentage) +  + str(Khan_votes)
+Khan: {:.3%}.format(Correy_percentage) +  + str(Khan_votes)
+Khan: {:.3%}.format(Li_percentage) +  + str(Khan_votes)
+Khan: {:.3%}.format(OTooley_percentage) +  + str(Khan_votes)
+-------------------------------------------
+Winner: Khan-------------------------------------------
