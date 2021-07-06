@@ -61,17 +61,18 @@ print(f"Winner: {winner}")
 print("-------------------------------------------")
 
 # Save the summary results to textfile
-save_textfile = csvpath.strip(".csv") + "_ElectionResults.txt"
+election_Data_Summ = csvpath.strip(".csv") + "_ElectionResults.txt"
 csvpath = os.path.join('Resources', 'election_Data_Summ.txt')
-with open(csvpath, 'w')as text:
+with open(csvpath, 'w') as text:
     text.write("Election Results" + "\n")
     text.write("-------------------------------------------" + "\n")
-    text.write("Total Votes: {str(total_votes)}" + "\n")
+    text.write("Total Votes: " + str(total_votes) + "\n")
     text.write("-------------------------------------------" + "\n")
-    text.write("Khan: {:.3%}.format(khan_percentage) + " " + str(Khan_votes)" + "\n")
-    text.write("Khan: {:.3%}.format(Correy_percentage) + " " + str(Khan_votes)" + "\n")
-    text.write("Khan: {:.3%}.format(Li_percentage) + " " + str(Khan_votes)" + "\n")
-    text.write("Khan: {:.3%}.format(OTooley_percentage) + " " + str(Khan_votes)" + "\n")
+    text.write("Khan: "+"{:.3%}".format(khan_percentage) + " " + str(Khan_votes) + "\n")
+    text.write("Correy: "+"{:.3%}".format(Correy_percentage) + " " + str(Correy_votes) + "\n")
+    text.write("Li: "+"{:.3%}".format(Li_percentage) + " " + str(Li_votes) + "\n")
+    text.write("O'Tooley: "+"{:.3%}".format(OTooley_percentage) + " " + str(OTooley_votes) + "\n")
     text.write("-------------------------------------------" + "\n")
     text.write(f"Winner: {winner}" + "\n")
     text.write("-------------------------------------------" + "\n")
+    
